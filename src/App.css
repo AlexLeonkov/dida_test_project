@@ -36,11 +36,11 @@
     transform: rotate(360deg);
   }
 }
-/* .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
 .background-box {
   background-color: rgb(195, 193, 193);
 
@@ -48,4 +48,10 @@
   width: 60%;
 
   padding: 10px;
+}
+
+.examples {
+  padding: 10px !important;
+  border-radius: 2px;
+  background-color: #7fe0ff4d;
 }
